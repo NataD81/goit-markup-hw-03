@@ -48,12 +48,8 @@ section {
 .page-nav {
   display: flex;
   align-items: center;
-  
 }
 
-.logo {
-  margin-right: 76px;
-}
 .link-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -64,6 +60,7 @@ section {
   text-decoration: none;
   color: #4d5ae5;
   display: flex;
+  margin-right: 76px;
 }
 
 .logo-header {
@@ -77,10 +74,9 @@ section {
   display: flex;
   gap: 40px;
 }
-.link{
+.link {
   padding-top: 24px;
   padding-bottom: 24px;
-
 }
 .page-link .link {
   color: #2e2f42;
@@ -100,7 +96,6 @@ section {
 .page-contacts {
   display: flex;
   gap: 40px;
-  
 }
 .contacts {
   font-size: 16px;
@@ -111,7 +106,7 @@ section {
   align-items: center;
   margin-left: auto;
 }
-.page-contacts-item{
+.page-contacts-item {
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -120,8 +115,7 @@ section {
   text-decoration: none;
   line-height: 24px;
   letter-spacing: 0.32px;
-  display: block;  
-
+  display: block;
 }
 
 .contacts-link:hover,
@@ -194,9 +188,6 @@ section {
   overflow: hidden;
 }
 
-.strengths {
-  
-}
 .title-item {
   display: flex;
   gap: 24px;
@@ -228,6 +219,8 @@ section {
   letter-spacing: 0.32px;
   margin: 0;
 }
+
+/*Section 3*/
 .card {
   background: #f4f4fd;
 }
@@ -261,18 +254,20 @@ section {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
-  }
-  .card-name-item-item{
-    padding: 32px 0;
-
-  }
+}
+.card-name-item-item {
+  padding: 32px 0;
+}
 .card-name-text {
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
   margin: 0;
-  
+}
+/*Section 4*/
+.portfolio {
+  color: #2e2f42;
 }
 .portfolio-item {
   display: flex;
@@ -284,8 +279,7 @@ section {
 .portfolio-item-card {
   width: calc((100% - 48px) / 3);
 }
-.portfolio {
-  color: #2e2f42;
+.portfolio-title {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -300,7 +294,6 @@ section {
   border-top: none;
   padding: 32px 16px;
 }
-
 .portfolio-name {
   color: #2e2f42;
   font-size: 20px;
@@ -309,6 +302,7 @@ section {
   letter-spacing: 0.4px;
   margin-bottom: 8px;
 }
+
 .portfolio-name-text {
   font-size: 16px;
   line-height: 1.5;
